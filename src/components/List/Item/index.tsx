@@ -1,4 +1,4 @@
-import style from "../list.module.scss";
+import style from "./Item.module.scss";
 import React from "react";
 import {Itasks} from "../../../types/itasks";
 
@@ -26,8 +26,9 @@ export default function Item(
     return (
 
         <li
-            className={`${style.item} ${selected ? style.itemSelected: ""}`}
-            onClick={() => selectTask({
+            className={`${style.item} ${selected ? style.itemSelected: ""} 
+            ${completed ? style.itemCompleted: ""}`}
+            onClick={() => !completed && selectTask({
                 task,
                 time,
                 selected,
@@ -37,6 +38,8 @@ export default function Item(
 
             <h3> {task}</h3>
             <span>{time}</span>
+            {completed && <span className={style.finished} aria-label="task completed"></span>}
+
         </li>
     )
 }

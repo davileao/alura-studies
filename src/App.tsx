@@ -18,7 +18,23 @@ function App() {
         ...task,
         selected: task.id === selectedTask.id
     })));
+  }
 
+
+  function endTask (){
+    if (selected) {
+      setSelected(undefined);
+      setTasks (oldTasks => oldTasks.map(task => {
+        if(task.id === selected.id) {
+          return {
+            ...task,
+            selected: false,
+            completed: true
+          }
+        }
+        return task;
+      }))
+      }
   }
 
   return (
@@ -28,7 +44,10 @@ function App() {
             tasks={tasks}
             selectTask={selectTask}
         />
-        <Stopwatch />
+        <Stopwatch
+            selected={selected}
+            endTask={endTask}
+        />
     </div>
   );
 }
