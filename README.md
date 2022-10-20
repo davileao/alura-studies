@@ -1,7 +1,7 @@
 <p align="center">
-<a href="https://github.com/davileao/alura-studies/edit/master/README.md#alura-studies---stopwatch"><img src="https://github.com/csmoore/country-flag-icons/blob/master/country-flags-4x3-png/us.png" width="50" height="40"/></a>
+<a href="https://github.com/davileao/alura-studies#alura-studies---cron%C3%B4metro"><img src="https://github.com/csmoore/country-flag-icons/blob/master/country-flags-4x3-png/us.png" width="50" height="40"/></a>
 <p align="center">
-<a href="https://github.com/davileao/alura-studies/edit/master/README.md#alura-studies---cron%C3%B4metro"><img src="https://github.com/csmoore/country-flag-icons/blob/master/country-flags-4x3-png/br.png" width="50" height="40"/></a>
+<a href="https://github.com/davileao/alura-studies#alura-studies---cron%C3%B4metro"><img src="https://github.com/csmoore/country-flag-icons/blob/master/country-flags-4x3-png/br.png" width="50" height="40"/></a>
 
 
 # Alura Studies - Cronômetro
